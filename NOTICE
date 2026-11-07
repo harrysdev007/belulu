@@ -1,0 +1,19 @@
+Memegle
+Copyright 2026 Memegle contributors
+
+This product is a static reimplementation inspired by and derived in concept from
+Meme Search (https://github.com/meme-search/meme-search), Copyright neonwatty and
+contributors, licensed under the Apache License, Version 2.0.
+
+The example images in memes/classics/ are taken from the Meme Search repository
+(meme_search/memes/example_memes_*).
+
+Search results are fetched at runtime, directly by the user's browser, from public
+APIs of third parties: Lemmy instances (lemmy.world and others), meme-api.com (Reddit),
+api.imgflip.com, en.wikipedia.org, suggestqueries.google.com and, when the user adds
+their own API keys, Tenor, Giphy and Imgur. Memegle does not host or redistribute that
+content; every result links to its source.
+
+In-browser AI runs on Transformers.js (Apache-2.0) with the models
+onnx-community/Florence-2-base-ft, onnx-community/Florence-2-large-ft (MIT, Microsoft)
+and Xenova/all-MiniLM-L6-v2 (Apache-2.0), downloaded from the Hugging Face Hub at runtime.

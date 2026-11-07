@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+*.bak
+*.bak_*
+_backups/
+.env
+node_modules/
+tools/demo_meta.json
+
+# Local outputs and credentials
+output/
+.env.*
+*.pem
+*.key
+
+dist/
+.npm-cache/
